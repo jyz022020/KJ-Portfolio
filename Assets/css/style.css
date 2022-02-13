@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.resizable-layout {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* set the background color to grey for body content */
+body {
+    background-color: #d9dcd6; 
+}
+
+/* set the padding, font, background color for header section*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* set the font size and display method for all the h1 inside header */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* set the padding, margin, float, font and size for all nav link* inside header*/
+header nav {
+    padding-top: 15px; 
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* set the style for hyperlink<a> inside nav */ 
+header nav a{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* set all the hyperlink <a> color to white*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* set profolio main image, source and postion */
+#profolio-main-image {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+article {
+    display: flex;
+    margin: 20px auto;
+}
+
+
+aside {
+    width: 25%;
+    border-right: 5px solid blue;
+    margin-right: 20px;
+    margin-left: 80px;
+    text-align: right;
+}
+
+section {
+    width: 75%;
+}
+
+.content img{
+    float: left;
+    margin-left: 30px;
+    max-width: 250px;
+}
+
+/* set style for all <footer> */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* set style for all <h2> inside footer*/
+footer h2 {
+    font-size: 20px;
+}
