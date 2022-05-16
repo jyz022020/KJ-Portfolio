@@ -147,7 +147,8 @@ a {
 }
 
 #project3-image {
-    background-image: url("../images/business_image.jpg");
+    background-image: url("../images/project2.png");
+    background-size: contain;
     height: 300px;
     border: cadetblue;
     border-style: solid;
