@@ -29,7 +29,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 Project Repo:
-https://github.com/jyz022020/Module2
+https://github.com/jyz022020/KJ-Portfolio
 
 Project web link:
-https://jyz022020.github.io/Module2/
+https://jyz022020.github.io/KJ-Portfolio/
